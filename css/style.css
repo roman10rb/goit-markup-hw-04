@@ -141,10 +141,19 @@ letter-spacing: 0.02em;
 
 /* ----------------HERO----------------- */
 .hero {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top:200px;
     padding-bottom: 200px;
     text-align: center;
+
     background-color: #2F303A;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+    url(../images/hw4/Img\ \(17\)\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+   
 }
 
 .hero-title {
@@ -339,18 +348,31 @@ padding: 30px;
     margin-bottom: 50px;
 }
 /* ------------------CARDS------------------ */
+
+
 .projects{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-   
+   gap: 30px;
 }
+
+
 .project-item{
-    width: 370px;
+    flex-basis: calc((100% - 2 * 30px) / 3);
 }
 
 .project-alltext{
-   border: 1px solid #EEEEEE
+    display: inline-block;
+    border: 1px solid #EEEEEE;
+}
+.project-alltext{
+    border-top: none;
+}
+
+
+
+.project-item:hover{
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .project-alltext{
