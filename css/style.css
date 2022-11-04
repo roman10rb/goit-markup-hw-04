@@ -264,6 +264,27 @@ letter-spacing: 0.02em;
 }
 
 /* -----------------НАША КОМАНДА------------------ */
+.ikon-team{
+    fill: #AFB1B8;
+}
+.ikon-teams{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 44px;
+    height: 44px;
+    margin-top: 16px;
+
+}
+.ikon-teams:hover .ikon-team{
+    fill: white;
+}
+.ikon-teams:hover{
+    background-color: #2196F3;
+    border-radius: 50%;
+}
 .team{
     padding-top: 0;
     background-color: #F5F4FA;
@@ -310,6 +331,41 @@ padding: 30px;
     color: var(--sub-prime-color-text);
 }
 
+/* --------------------CLIENTS------------------- */
+.clients-list{
+    display: inline-flex;
+    gap: 30px;
+
+}
+.clients-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid rgba(175, 177, 184, 1);
+    border-radius: 4px;
+    
+}
+.ikon-client{
+    fill: #AFB1B8;
+}
+.clients-item:hover .ikon-client{
+    fill: #2196F3;
+}
+.clients-item:hover{
+    border-color: #2196F3;
+    color: #2196F3;
+}
+
+.clients-title {
+    margin-bottom: 50px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(36/24);
+    text-align: center;
+    letter-spacing: 0.03em;}
 /*---------------------FOOTER-------------------  */
 
 .footer {
