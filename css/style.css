@@ -118,6 +118,11 @@ gap: 50px;
 
 .kontakt-tel,
 .kontakt-mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
 text-decoration: none;
 font-weight: 500;
 font-size: 14px;
@@ -125,13 +130,7 @@ line-height: calc(16/14);
 letter-spacing: 0.02em;
  color: var(--sub-prime-color-text);
 }
-.kontakt-mail,
-.kontakt-tel{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
+
 .ikon{
     fill: currentColor;
 }
@@ -194,6 +193,19 @@ letter-spacing: 0.02em;
 }
 
 /* --------------------FEATURES-------------------- */
+.features-ikon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    width: 270;
+    height: 120;
+    padding: 25px 100px;
+}
+.icon-antenna{
+    
+}
 .features{
     padding-top: 94px;
     padding-bottom: 94px;
