@@ -440,16 +440,19 @@ padding: 30px;
     align-items: center;
     
 }
-
-.footer-link {
-    
+.footer-list{
+    /* margin-top: 20px; */
 }
+.footer-link {
+            width: 44px;
+            height: 44px;
+}
+
 .footer-ikon{
     fill: #FFFFFF;
 }
-.ikon-teams {}
-
 .footer-link > .ikon-teams{
+    margin-top: 20px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
 }
