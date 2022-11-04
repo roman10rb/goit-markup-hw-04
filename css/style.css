@@ -109,10 +109,8 @@ img {
     color: var(--hover-color);
     cursor: pointer;
 }
-
-
 .kontakt-list {
-    margin-left: auto;
+margin-left: auto;
 list-style: none;
 display: flex;
 gap: 50px;
@@ -127,6 +125,17 @@ line-height: calc(16/14);
 letter-spacing: 0.02em;
  color: var(--sub-prime-color-text);
 }
+.kontakt-mail,
+.kontakt-tel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.ikon{
+    fill: currentColor;
+}
+
 
 .kontakt-tel:hover,
 .kontakt-tel:focus,
@@ -353,12 +362,13 @@ padding: 30px;
 .projects{
     display: flex;
     flex-wrap: wrap;
-   gap: 30px;
+     margin: -15px;
 }
 
 
 .project-item{
-    flex-basis: calc((100% - 2 * 30px) / 3);
+    width: 370px;
+    margin: 15px;
 }
 
 .project-alltext{
