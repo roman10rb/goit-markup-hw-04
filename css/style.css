@@ -190,6 +190,7 @@ letter-spacing: 0.02em;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 /* --------------------FEATURES-------------------- */
@@ -202,9 +203,7 @@ letter-spacing: 0.02em;
     width: 270px;
     height: 120px;
 }
-.icon-antenna{
-    
-}
+
 .features{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -266,14 +265,17 @@ letter-spacing: 0.02em;
 .ikon-team{
     fill: #AFB1B8;
 }
+.team-ikons{
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 16px;
+}
 .ikon-teams{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
     width: 44px;
     height: 44px;
-    margin-top: 16px;
 
 }
 .ikon-teams:hover .ikon-team{
@@ -340,19 +342,21 @@ padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+   
+  
+    
+}
+.ikon-client{   
+    padding: 16px 32px;
     width: 170px;
     height: 92px;
     border: 1px solid rgba(175, 177, 184, 1);
     border-radius: 4px;
-    
-}
-.ikon-client{
     fill: #AFB1B8;
 }
-.clients-item:hover .ikon-client{
+.ikon-client:hover,
+.ikon-client:focus{
     fill: #2196F3;
-}
-.clients-item:hover{
     border-color: #2196F3;
     color: #2196F3;
 }
@@ -441,7 +445,7 @@ padding: 30px;
     
 }
 .footer-list{
-    /* margin-top: 20px; */
+    margin-top: 20px;
 }
 .footer-link {
             width: 44px;
@@ -452,7 +456,6 @@ padding: 30px;
     fill: #FFFFFF;
 }
 .footer-link > .ikon-teams{
-    margin-top: 20px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
 }
