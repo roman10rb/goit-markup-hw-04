@@ -346,16 +346,18 @@ padding: 30px;
   
     
 }
-.ikon-client{   
-    padding: 16px 32px;
+.ikon-clients{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 170px;
     height: 92px;
     border: 1px solid rgba(175, 177, 184, 1);
     border-radius: 4px;
     fill: #AFB1B8;
 }
-.ikon-client:hover,
-.ikon-client:focus{
+.ikon-clients:hover,
+.ikon-clients:focus{
     fill: #2196F3;
     border-color: #2196F3;
     color: #2196F3;
